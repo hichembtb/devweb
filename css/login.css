@@ -1,0 +1,50 @@
+
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+body{
+    background-color: #69554C;
+}
+.container{
+    background-color: #4A2B10;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Harry Potter', sans-serif;
+    font-weight: 332px;
+    font-size: 48px;  
+    padding-top: 10%;
+    color: white;  
+}
+h4{
+   color: rgba(255, 255, 255, 0.728); 
+   font-size: 16px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    display: block;
+    width: 50%;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+input[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #69554C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
